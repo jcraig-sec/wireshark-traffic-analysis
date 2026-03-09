@@ -37,10 +37,10 @@ payloads remain protected. This project focuses on realistic defensive
 visibility rather than bypassing encryption.
 
 ## Files
-- Wireshark screenshot demonstrating DNS query analysis
-- Documentation of observed DNS, ICMP, and HTTPS traffic
+• Wireshark screenshots demonstrating ICMP, DNS, and TLS traffic analysis
+• Documentation of observed network protocols and packet inspection
 
 ## Wireshark Filters Used
-dns  
-icmp  
+dns
+icmp
 tcp.port == 443
