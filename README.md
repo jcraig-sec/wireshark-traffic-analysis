@@ -17,10 +17,14 @@ Demonstrate understanding of modern encrypted network traffic by capturing and a
   
 ## Traffic Observed
 - ICMP: Verified connectivity using echo requests and replies
+  ### ICMP Echo Request / Reply Example
+
+![ICMP Screenshot](screenshots/icmp-ping.png)
 - DNS: Captured domain name resolution queries and responses
-  ### DNS Query Example
+  ### DNS Query and Response Example
 
 ![DNS Query Screenshot](screenshots/dns-query.png)
+
 - HTTPS: Observed TLS handshakes and encrypted payloads
 
 ## Key Insight
