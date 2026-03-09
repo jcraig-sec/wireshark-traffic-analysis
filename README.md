@@ -26,6 +26,9 @@ Demonstrate understanding of modern encrypted network traffic by capturing and a
 ![DNS Query Screenshot](screenshots/dns-query.png)
 
 - HTTPS: Observed TLS handshakes and encrypted payloads
+- ### HTTPS / TLS Handshake Example
+
+![TLS Handshake Screenshot](screenshots/tls-handshake.png)
 
 ## Key Insight
 Modern web traffic is encrypted by default. While packet capture allows
