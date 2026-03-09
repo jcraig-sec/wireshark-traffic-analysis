@@ -1,22 +1,20 @@
-# Network Traffic Analysis in a Virtualized Environment
+## Network Traffic Analysis with Wireshark
 
 ## Objective
-Demonstrate understanding of modern encrypted network traffic by capturing and
-analyzing VM-generated traffic using Wireshark.
+Demonstrate understanding of modern encrypted network traffic by capturing and analyzing live network traffic using Wireshark.
 
 ## Environment
 - Host OS: macOS (Apple Silicon)
-- VM Platform: UTM
-- Guest OS: Ubuntu Linux (ARM)
-- Network Mode: Shared / NAT
-- Capture Tool: Wireshark
-
+- Capture Interface: Wi-Fi (en0)
+- Network Analyzer: Wireshark
+- Traffic Type: Live network traffic from host system
+  
 ## Methodology
-- Deployed an Ubuntu virtual machine using shared networking
-- Captured traffic on the host Wi-Fi interface
-- Generated controlled network traffic from the VM
-- Applied protocol and IP-based display filters in Wireshark
-
+- Started a live packet capture using the Wi-Fi interface (en0)
+- Generated normal network activity by accessing web services
+- Applied protocol display filters in Wireshark
+- Inspected DNS queries, ICMP traffic, and HTTPS/TLS handshakes
+  
 ## Traffic Observed
 - ICMP: Verified connectivity using echo requests and replies
 - DNS: Captured domain name resolution queries and responses
@@ -32,6 +30,10 @@ payloads remain protected. This project focuses on realistic defensive
 visibility rather than bypassing encryption.
 
 ## Files
-- Packet capture (.pcapng)
-- Screenshots demonstrating DNS, TLS, and filtered traffic
-- 
+- Wireshark screenshot demonstrating DNS query analysis
+- Documentation of observed DNS, ICMP, and HTTPS traffic
+
+## Wireshark Filters Used
+dns  
+icmp  
+tcp.port == 443
