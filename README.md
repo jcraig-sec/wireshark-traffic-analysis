@@ -31,10 +31,7 @@ Demonstrate understanding of modern encrypted network traffic by capturing and a
 ![TLS Handshake Screenshot](screenshots/tls-handshake.png)
 
 ## Key Insight
-Modern web traffic is encrypted by default. While packet capture allows
-visibility into metadata such as DNS queries and TLS handshakes, application
-payloads remain protected. This project focuses on realistic defensive
-visibility rather than bypassing encryption.
+Modern web traffic is encrypted by default. While packet capture tools like Wireshark provide visibility into metadata such as DNS queries, ICMP traffic, and TLS handshakes, the encrypted application payloads remain protected. This project demonstrates how analysts can still gain useful network insights without decrypting traffic.
 
 ## Files
 • Wireshark screenshots demonstrating ICMP, DNS, and TLS traffic analysis
