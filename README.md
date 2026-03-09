@@ -20,6 +20,9 @@ analyzing VM-generated traffic using Wireshark.
 ## Traffic Observed
 - ICMP: Verified connectivity using echo requests and replies
 - DNS: Captured domain name resolution queries and responses
+  ### DNS Query Example
+
+![DNS Query Screenshot](screenshots/dns-query.png)
 - HTTPS: Observed TLS handshakes and encrypted payloads
 
 ## Key Insight
