@@ -37,7 +37,9 @@ Modern web traffic is encrypted by default. While packet capture tools like Wire
 • Wireshark screenshots demonstrating ICMP, DNS, and TLS traffic analysis
 • Documentation of observed network protocols and packet inspection
 
+
 ## Wireshark Filters Used
-dns
-icmp
-tcp.port == 443
+
+- `dns`
+- `icmp`
+- `tcp.port == 443`
