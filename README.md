@@ -20,13 +20,15 @@ Demonstrate understanding of modern encrypted network traffic by capturing and a
   ### ICMP Echo Request / Reply Example
 
 ![ICMP Screenshot](screenshots/icmp-ping.png)
+The capture shows ICMP echo requests and replies between two devices. The replies confirm that the destination is reachable and responding to network traffic.
 - DNS: Captured domain name resolution queries and responses
   ### DNS Query and Response Example
 
 ![DNS Query Screenshot](screenshots/dns-query.png)
+The capture shows DNS queries and responses used to resolve domain names. This demonstrates how a device requests DNS information before communicating with a destination service.
 
 - HTTPS: Observed TLS handshakes and encrypted payloads
-- ### HTTPS / TLS Handshake Example
+### HTTPS / TLS Handshake Example
 
 ![TLS Handshake Screenshot](screenshots/tls-handshake.png)
 
